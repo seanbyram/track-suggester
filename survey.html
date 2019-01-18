@@ -38,52 +38,57 @@
       </div>
       <br><br><br><br>
       <div class="container">
-        <form>
+        <form id="survey">
           <h1>Where to begin?</h1>
+          <hr>
           <div class="form-group">
-            <label for="exampleFormControlSelect1">Do you have any programming experience?</label>
-            <select class="form-control" id="exampleFormControlSelect1">
+            <label>Do you have any programming experience?</label>
+            <select class="form-control" id="select1">
+              <option></option>
               <option>No. What is programming?</option>
-              <option>Some</option>
-              <option>I know Javascript and more!</option>
+              <option>Yes</option>
             </select>
           </div>
           <div class="form-group">
-            <label for="exampleFormControlSelect1">Do you prefer frontend or backend development?</label>
-            <select class="form-control" id="exampleFormControlSelect1">
-              <option>frontend</option>
-              <option>backend</option>
-            </select>
-          </div>
-          <div class="form-group">
-            <label for="exampleFormControlSelect1">Have you completed <em>Intro to Programming?</em>></label>
-            <select class="form-control" id="exampleFormControlSelect1">
+            <label for="exampleFormControlSelect1">Do you know Javascript?</label>
+            <select class="form-control" id="select2">
+              <option></option>
               <option>Yes</option>
               <option>No</option>
             </select>
           </div>
           <div class="form-group">
-            <label for="exampleFormControlSelect1">Example select</label>
-            <select class="form-control" id="exampleFormControlSelect1">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
+            <label for="exampleFormControlSelect1">Do you prefer frontend or backend development?</label>
+            <select class="form-control" id="select3">
+              <option></option>
+              <option>frontend</option>
+              <option>backend</option>
             </select>
           </div>
           <div class="form-group">
-            <label for="exampleFormControlSelect1">Example select</label>
-            <select class="form-control" id="exampleFormControlSelect1">
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-              <option>4</option>
-              <option>5</option>
+            <label for="exampleFormControlSelect1">Would you like to work for a large enterprise company?</label>
+            <select class="form-control" id="select4">
+              <option></option>
+              <option>Yes</option>
+              <option>No</option>
             </select>
           </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Are you interested in Android development?</label>
+            <select class="form-control" id="select5">
+              <option></option>
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </div>
+          <button id="submit" type="submit" class="btn btn-primary">Submit</button>
         </form>
+      <br><br><br><br>
+      <div class="">
+          <h1>Your Results</h1>
+          <hr>
+          <p>Take this track:<span id="result"></span></p>
+      </div>
 
       </div>
 
