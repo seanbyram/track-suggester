@@ -20,16 +20,13 @@
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <div class="collapse navbar-collapse">
           <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-link" href="index.html">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link disabled" href="#">Survey</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
+              <a class="nav-link" href="#">Survey</a>
             </li>
           </ul>
         </div>
@@ -39,7 +36,7 @@
       <br><br><br><br>
       <div class="container">
         <form id="survey">
-          <h1>Where to begin?</h1>
+          <h1>Programming Survey</h1>
           <hr>
           <div class="form-group">
             <label>Do you have any programming experience?</label>
@@ -84,11 +81,13 @@
           <button id="submit" type="submit" class="btn btn-primary">Submit</button>
         </form>
       <br><br><br><br>
-      <div class="">
-          <h1>Your Results</h1>
-          <hr>
-          <p>Take this track:<span id="result"></span></p>
+      <div class="card">
+        <div class="card-body">
+          <h4 class="card-title">Results</h4>
+          <p id="result"class="card-text">You should Try this Track:</p>
+        </div>
       </div>
+      <br><br><br><br>
 
       </div>
 
