@@ -36,12 +36,31 @@
 
         </nav>
       </div>
-
+      <br><br><br><br>
       <div class="container">
         <form>
+          <h1>Where to begin?</h1>
           <div class="form-group">
-            <label for="exampleFormControlInput1">Email address</label>
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+            <label for="exampleFormControlSelect1">Do you have any programming experience?</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>No. What is programming?</option>
+              <option>Some</option>
+              <option>I know Javascript and more!</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Do you prefer frontend or backend development?</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>frontend</option>
+              <option>backend</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect1">Have you completed <em>Intro to Programming?</em>></label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Yes</option>
+              <option>No</option>
+            </select>
           </div>
           <div class="form-group">
             <label for="exampleFormControlSelect1">Example select</label>
@@ -54,8 +73,8 @@
             </select>
           </div>
           <div class="form-group">
-            <label for="exampleFormControlSelect2">Example multiple select</label>
-            <select multiple class="form-control" id="exampleFormControlSelect2">
+            <label for="exampleFormControlSelect1">Example select</label>
+            <select class="form-control" id="exampleFormControlSelect1">
               <option>1</option>
               <option>2</option>
               <option>3</option>
@@ -63,11 +82,9 @@
               <option>5</option>
             </select>
           </div>
-          <div class="form-group">
-            <label for="exampleFormControlTextarea1">Example textarea</label>
-            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
         </form>
+
       </div>
 
   </body>
