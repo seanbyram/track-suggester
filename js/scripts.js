@@ -20,7 +20,12 @@ $(document).ready(function() {
 
     var allSelects = [select1, select2, select3, select4, select5];
     console.log(allSelects);
-
+    // var resultsArr = ["Start with our Intro to Programming Track", " Try our Javascript Track"]
+    // allSelects.forEach(function(select, i){
+    //   if(select==="No"){
+    //     $("#result").text(resultsArr[i]]);
+    //   }
+    // });
     if (select1 === "No") {
         $("#result").text(" Start with our Intro to Programming Track")
     } else if (select2 === "No") {
